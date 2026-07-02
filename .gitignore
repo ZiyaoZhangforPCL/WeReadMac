@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Local build outputs
+build/
+dist/
+
+# Logs
+*.log
+
+# Secrets / local signing
+*.p8
+*.cer
+*.mobileprovision
+*.provisionprofile
+.env
+.env.*

@@ -1,0 +1,109 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+BE25AB5A62084397A774DB1C /* WeReadMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C10451106A4155881E1D02 /* WeReadMacApp.swift */; };
+C5435D2B656A476EBF9C26B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2978E6CA60A749179DB45CDD /* ContentView.swift */; };
+A14249F2B9C94D62AEC572FF /* WindowAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB234D9B22354E32B706A34A /* WindowAccessor.swift */; };
+AD34AC3CCF4C4135A431AADC /* BrowserCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B53B33A6D30426986C29732 /* BrowserCommands.swift */; };
+AE2F4A6B457848498461B24B /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3643E60FAB364960810532D8 /* AppSettings.swift */; };
+21FB0073EF4841E2B2192626 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35150A90460E4E7EA5ED44CD /* SettingsView.swift */; };
+F7A5274208B04C479A3CC8FD /* BrowserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D041066180AC494AADC854D7 /* BrowserViewModel.swift */; };
+517CF0BA76CD45A5A9F751BB /* String+Blank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B083E117D2845E5B291959F /* String+Blank.swift */; };
+8986787C8A8E4BCD960F91DF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE0D4FE5BFC4C2887FDFC3B /* WebView.swift */; };
+2DCA034B13FC4EED9F74CE9C /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5392A3CF192460685263643 /* WebViewCoordinator.swift */; };
+DBBC05F6E18F435CAC749AEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD13B72431ED4F27A32E9E8F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+21C10451106A4155881E1D02 /* WeReadMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/WeReadMac/WeReadMacApp.swift; sourceTree = "<group>"; };
+2978E6CA60A749179DB45CDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/WeReadMac/ContentView.swift; sourceTree = "<group>"; };
+BB234D9B22354E32B706A34A /* WindowAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/WeReadMac/WindowAccessor.swift; sourceTree = "<group>"; };
+7B53B33A6D30426986C29732 /* BrowserCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/WeReadMac/Commands/BrowserCommands.swift; sourceTree = "<group>"; };
+3643E60FAB364960810532D8 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/WeReadMac/Settings/AppSettings.swift; sourceTree = "<group>"; };
+35150A90460E4E7EA5ED44CD /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/WeReadMac/Settings/SettingsView.swift; sourceTree = "<group>"; };
+D041066180AC494AADC854D7 /* BrowserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/WeReadMac/WebView/BrowserViewModel.swift; sourceTree = "<group>"; };
+1B083E117D2845E5B291959F /* String+Blank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/WeReadMac/WebView/String+Blank.swift; sourceTree = "<group>"; };
+FCE0D4FE5BFC4C2887FDFC3B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/WeReadMac/WebView/WebView.swift; sourceTree = "<group>"; };
+A5392A3CF192460685263643 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/WeReadMac/WebView/WebViewCoordinator.swift; sourceTree = "<group>"; };
+AD13B72431ED4F27A32E9E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WeReadMac/Resources/Assets.xcassets; sourceTree = "<group>"; };
+CF5219B6BFDC4FAF8C96DA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeReadMac/Info.plist; sourceTree = "<group>"; };
+7EB3D0F75D92411884C62D1A /* WeReadMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeReadMac/WeReadMac.entitlements; sourceTree = "<group>"; };
+34AFCC8E430B4F2AB025C8AE /* WeReadMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeReadMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+B5460FC8949143DABD549D93 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+9419097BA1E1448085357446 = {isa = PBXGroup; children = (70C880B44A62411EA40A9643 /* Sources */, 690F3C15694A4633BB00D1F3 /* App */, 89BB5A070972460D8DB40C52 /* Resources */, 3462F95E44D24FDA825C22A9 /* Products */); sourceTree = "<group>"; };
+70C880B44A62411EA40A9643 /* Sources */ = {isa = PBXGroup; children = (
+        21C10451106A4155881E1D02 /* WeReadMacApp.swift */,
+        2978E6CA60A749179DB45CDD /* ContentView.swift */,
+        BB234D9B22354E32B706A34A /* WindowAccessor.swift */,
+        7B53B33A6D30426986C29732 /* BrowserCommands.swift */,
+        3643E60FAB364960810532D8 /* AppSettings.swift */,
+        35150A90460E4E7EA5ED44CD /* SettingsView.swift */,
+        D041066180AC494AADC854D7 /* BrowserViewModel.swift */,
+        1B083E117D2845E5B291959F /* String+Blank.swift */,
+        FCE0D4FE5BFC4C2887FDFC3B /* WebView.swift */,
+        A5392A3CF192460685263643 /* WebViewCoordinator.swift */,
+); name = Sources; sourceTree = "<group>"; };
+690F3C15694A4633BB00D1F3 /* App */ = {isa = PBXGroup; children = (
+        CF5219B6BFDC4FAF8C96DA64 /* Info.plist */,
+        7EB3D0F75D92411884C62D1A /* WeReadMac.entitlements */,
+); name = WeReadMac; sourceTree = "<group>"; };
+89BB5A070972460D8DB40C52 /* Resources */ = {isa = PBXGroup; children = (
+        AD13B72431ED4F27A32E9E8F /* Assets.xcassets */,
+); name = Resources; sourceTree = "<group>"; };
+3462F95E44D24FDA825C22A9 /* Products */ = {isa = PBXGroup; children = (34AFCC8E430B4F2AB025C8AE /* WeReadMac.app */); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+E74BEB835C054162B8FDFB26 /* WeReadMac */ = {isa = PBXNativeTarget; buildConfigurationList = 1F8EAF50C12C4B76B64A166F; buildPhases = (E8294DCE7478433DB3AA1AEE, B5460FC8949143DABD549D93, 38F3D97923184AC9972F8B23); buildRules = (); dependencies = (); name = WeReadMac; productName = WeReadMac; productReference = 34AFCC8E430B4F2AB025C8AE /* WeReadMac.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+8781E981FDC84000B04ABF81 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {E74BEB835C054162B8FDFB26 = {CreatedOnToolsVersion = 16.0;};};}; buildConfigurationList = B09C85BF072543B5A114BCE9; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = 9419097BA1E1448085357446; productRefGroup = 3462F95E44D24FDA825C22A9; projectDirPath = ""; projectRoot = ""; targets = (E74BEB835C054162B8FDFB26); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+38F3D97923184AC9972F8B23 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+        DBBC05F6E18F435CAC749AEF /* Assets.xcassets in Resources */,
+); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+E8294DCE7478433DB3AA1AEE /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+        BE25AB5A62084397A774DB1C /* WeReadMacApp.swift in Sources */,
+        C5435D2B656A476EBF9C26B2 /* ContentView.swift in Sources */,
+        A14249F2B9C94D62AEC572FF /* WindowAccessor.swift in Sources */,
+        AD34AC3CCF4C4135A431AADC /* BrowserCommands.swift in Sources */,
+        AE2F4A6B457848498461B24B /* AppSettings.swift in Sources */,
+        21FB0073EF4841E2B2192626 /* SettingsView.swift in Sources */,
+        F7A5274208B04C479A3CC8FD /* BrowserViewModel.swift in Sources */,
+        517CF0BA76CD45A5A9F751BB /* String+Blank.swift in Sources */,
+        8986787C8A8E4BCD960F91DF /* WebView.swift in Sources */,
+        2DCA034B13FC4EED9F74CE9C /* WebViewCoordinator.swift in Sources */,
+); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+823C7A9ACC824915868F8EAC /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = WeReadMac/WeReadMac.entitlements; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_ASSET_PATHS = ""; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = WeReadMac/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 13.0; MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = com.zhangzy.WeReadMac; PRODUCT_NAME = WeReadMac; SWIFT_VERSION = 6.0; CODE_SIGN_STYLE = Automatic; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; ONLY_ACTIVE_ARCH = YES; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;}; name = Debug; };
+9D94080A327242AB9D7A07D9 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_ENTITLEMENTS = WeReadMac/WeReadMac.entitlements; COMBINE_HIDPI_IMAGES = YES; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_ASSET_PATHS = ""; ENABLE_HARDENED_RUNTIME = YES; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = WeReadMac/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks"; MACOSX_DEPLOYMENT_TARGET = 13.0; MARKETING_VERSION = 1.0.0; PRODUCT_BUNDLE_IDENTIFIER = com.zhangzy.WeReadMac; PRODUCT_NAME = WeReadMac; SWIFT_VERSION = 6.0; CODE_SIGN_STYLE = Automatic; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_TESTABILITY = NO; ONLY_ACTIVE_ARCH = NO; SWIFT_COMPILATION_MODE = wholemodule; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release; };
+29BAD695BB414C48AC967B82 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CODE_SIGN_STYLE = Automatic; COPY_PHASE_STRIP = NO; DEVELOPMENT_TEAM = ""; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; GCC_OPTIMIZATION_LEVEL = 0; SDKROOT = macosx; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+8EFCE91F255B40D588043D18 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ANALYZER_NONNULL = YES; CLANG_ENABLE_MODULES = YES; CLANG_ENABLE_OBJC_ARC = YES; CLANG_WARN_DOCUMENTATION_COMMENTS = YES; CODE_SIGN_STYLE = Automatic; COPY_PHASE_STRIP = NO; DEVELOPMENT_TEAM = ""; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_C_LANGUAGE_STANDARD = gnu17; GCC_NO_COMMON_BLOCKS = YES; SDKROOT = macosx; VALIDATE_PRODUCT = YES;}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+B09C85BF072543B5A114BCE9 = {isa = XCConfigurationList; buildConfigurations = (29BAD695BB414C48AC967B82, 8EFCE91F255B40D588043D18); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+1F8EAF50C12C4B76B64A166F = {isa = XCConfigurationList; buildConfigurations = (823C7A9ACC824915868F8EAC, 9D94080A327242AB9D7A07D9); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 8781E981FDC84000B04ABF81 /* Project object */;
+}
